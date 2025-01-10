@@ -20,18 +20,89 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="..." /></a>
+        <a class="navbar-brand" href="/index.html"><img src="/assets/img/logos/logo_polri.png" alt="..." /></a>
+        <a class="navbar-brand" href="/index.html"><img src="/assets/img/logos/logo_polres.png" alt="..." /></a>
+        <a class="navbar-brand" href="/index.html">POLRES BANGKALAN</a>
+
+        <!-- (button) navbar pada tampilan mobile -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars ms-1"></i>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#profil" id="profilDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                PROFILE
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="profilDropdown">
+                <li><a class="dropdown-item" href="/user/sambutan_kapolres.html">Sambutan Kapolres</a></li>
+                <li><a class="dropdown-item" href="/user/lambang.html">Lambang</a></li>
+                <li><a class="dropdown-item" href="/user/visi_misi.html">Visi dan Misi</a></li>
+                <li><a class="dropdown-item" href="/user/struktur_organisasi.html">Struktur Organisasi</a></li>
+                <li><a class="dropdown-item" href="/user/sejarah.html">Sejarah</a></li>
+
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#informasi" id="informasiDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                SATFUNG
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="informasiDropdown">
+                <li><a class="dropdown-item" href="/user/sat_binmas.html">Sat Binmas</a></li>
+                <li><a class="dropdown-item" href="/user/bag_perencanaan.html">Bagian Perencanaan</a></li>
+                <li><a class="dropdown-item" href="/user/bag_sumda.html">Bagian Sumda</a></li>
+                <li><a class="dropdown-item" href="/user/bag_operasi.html">Bagian Operasi</a></li>
+                <li><a class="dropdown-item" href="/user/sat_intelkam.html">Sat Intelkam</a></li>
+                <li><a class="dropdown-item" href="/user/sat_lantas.html">Sat Lantas</a></li>
+                <li><a class="dropdown-item" href="/user/sat_narkoba.html">Sat Narkoba</a></li>
+                <li><a class="dropdown-item" href="/user/sat_reskrim.html">Sat Reskrim</a></li>
+                <li><a class="dropdown-item" href="/user/sat_sabhara.html">Sat Sabhara</a></li>
+                <li><a class="dropdown-item" href="/user/sat_tahti.html">Sat Tahti</a></li>
+                <li><a class="dropdown-item" href="/user/si_keuangan.html">Si Keuangan</a></li>
+                <li><a class="dropdown-item" href="/user/si_pengawas.html">Si Pengawas</a></li>
+                <li><a class="dropdown-item" href="/user/si_propam.html">Si Propam</a></li>
+                <li><a class="dropdown-item" href="/user/sie_tik.html">SIE TIK</a></li>
+                <li><a class="dropdown-item" href="/user/sie_umum.html">SIE Umum</a></li>
+                <li><a class="dropdown-item" href="/user/urusan_kesehatan.html">Urusan Kesehatan</a></li>
+                <li><a class="dropdown-item" href="/user/polsek.html">POLSEK</a></li>
+
+
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#layanan" id="layananDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                LAYANAN
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="layananDropdown">
+                <li><a class="dropdown-item" href="/user/sim.html">SIM</a></li>
+                <li><a class="dropdown-item" href="/user/spkt.html">SPKT</a></li>
+                <li><a class="dropdown-item" href="/user/skck.html">SKCK</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#hubungi" id="hubungiDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                HUBUNGI
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="hubungiDropdown">
+                <li><a class="dropdown-item" href="/user/110.html">Call Center 110</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#fitur" id="fiturDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                GIAT POLRES BANGKALAN
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="fiturDropdown">
+                <li><a href="/user/giat_masyarakat.html">Giat Masyarakat</a></li>
+                <li><a href="/user/giat_bhabinkamtibmas.html">Giat BAHBINKAMTIBMAS</a></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
@@ -39,11 +110,17 @@
     <!-- Masthead-->
     <header class="masthead">
       <div class="container">
-        <div class="masthead-subheading">Kepolisian Negara Republik Indonesia</div>
-        <div class="masthead-heading text-uppercase">Polres Bangkalan</div>
-        <!-- <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a> -->
+        <div class="masthead-subheading">Website Resmi</div>
+        <div class="masthead-heading">
+          <span class="highlight">Kepolisian Resor Bangkalan</span>
+        </div>
+        <div class="masthead-description text-uppercase">MELINDUNGI</div>
+        <div class="masthead-description text-uppercase">MENGAYOMI DAN</div>
+        <div class="masthead-description text-uppercase">MELAYANI MASYARAKAT</div>
       </div>
     </header>
+
+
     <!-- Services-->
     <!-- <section class="page-section" id="services">
       <div class="container">
@@ -308,84 +385,71 @@
       </div>
     </section>
     <!-- Footer-->
-    <!-- <footer class="footer py-4">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2023</div>
-          <div class="col-lg-4 my-3 my-lg-0">
-            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-          </div>
-          <div class="col-lg-4 text-lg-end">
-            <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-            <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
-          </div>
-        </div>
-      </div>
-    </footer> -->
-    <footer style="background-color: #111; color: #fff; padding: 40px 20px; font-family: Arial, sans-serif">
-      <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; max-width: 1200px; margin: auto">
+    <footer class="footer">
+      <div class="footer-grid">
         <!-- Kolom Logo dan Informasi -->
-        <div style="text-align: center">
-          <!-- Tambahkan Logo Polres -->
-          <img src="/assets/img/logo_polres.png" alt="Logo Polres" style="max-width: 120px; margin-bottom: 10px" />
-          <h3 style="margin: 10px 0">Kepolisian Republik Indonesia</h3>
-          <div style="text-align: left; font-size: 14px; line-height: 1.6; margin-top: 15px">
-            <p style="margin: 0"><strong>Dikembangkan Oleh:</strong></p>
-            <p style="margin: 0">Divisi Teknologi Informasi & Komunikasi Polri</p>
-            <p style="margin: 0">Jl. Soekarno Hatta No.45</p>
-            <p style="margin: 0">Wr 08, Mlajah, Kec. Bangkalan</p>
-            <p style="margin: 0">Kabupaten Bangkalan,Jawa Timur 69116.</p>
+        <div class="footer-logo">
+          <img src="/assets/img/logos/logo_polri.png" alt="Logo Polri" class="logo-img-polri" />
+          <img src="/assets/img/logos/logo_polres.png" alt="Logo Polres" class="logo-img-polres" />
+
+          <h3>Kepolisian Resor Bangkalan</h4>
+          <div class="footer-info">
+            <p>Dikembangkan Oleh:</p>
+            <p>Divisi Teknologi Informasi & Komunikasi Polres</p>
+            <p>Jl. Soekarno Hatta No.45 Wr 08, Mlajah, Kec. Bangkalan Kabupaten Bangkalan, Jawa Timur 69116.</p>
           </div>
         </div>
-
-        <!-- Kolom Tentang Polri -->
-        <div>
-          <h4 style="margin-bottom: 15px; border-bottom: 1px solid #444; padding-bottom: 5px">Tentang Polri</h4>
-          <ul style="list-style: none; padding: 0; line-height: 1.8">
-            <li><a href="https://polri.go.id/pesan-kapolri" style="color: #fff; text-decoration: none">Pesan Kapolri</a></li>
-            <li><a href="https://polri.go.id/arti-lambang" style="color: #fff; text-decoration: none">Arti Lambang</a></li>
-            <li><a href="https://polri.go.id/sejarah" style="color: #fff; text-decoration: none">Sejarah</a></li>
-            <li><a href="https://polri.go.id/visi-misi" style="color: #fff; text-decoration: none">Visi dan Misi</a></li>
-            <li><a href="https://polri.go.id/struktur-organisasi" style="color: #fff; text-decoration: none">Struktur Organisasi</a></li>
+        <div class="footer-section">
+          <h4 class="footer-title">Profile</h4>
+          <ul class="footer-list">
+            <li><a href="/user/sambutan_kapolres.html">Sambutan Kapolres</a></li>
+            <li><a href="/user/lambang.html">Lambang</a></li>
+            <li><a href="/user/visi_misi.html">Visi dan Misi</a></li>
+            <li><a href="/user/struktur_organisasi.html">Struktur Organisasi</a></li>
+            <li><a href="/user/sejarah.html">Sejarah</a></li>
           </ul>
         </div>
-
-        <!-- Kolom Layanan Polri -->
-        <div>
-          <h4 style="margin-bottom: 15px; border-bottom: 1px solid #444; padding-bottom: 5px">Layanan Polri</h4>
-          <ul style="list-style: none; padding: 0; line-height: 1.8">
-            <li><a href="https://polri.go.id/spkt" style="color: #fff; text-decoration: none">SPKT</a></li>
-            <li><a href="https://polri.go.id/sim" style="color: #fff; text-decoration: none">SIM</a></li>
-            <li><a href="https://polri.go.id/bpkb-stnk" style="color: #fff; text-decoration: none">BPKB/STNK</a></li>
-            <li><a href="https://polri.go.id/skck" style="color: #fff; text-decoration: none">SKCK</a></li>
+        <div class="footer-section">
+          <h4 class="footer-title">Satfung</h4>
+          <ul class="footer-list">
+                <li><a href="/user/sat_binmas.html">Sat Binmas</a></li>
+                <li><a href="/user/bag_perencanaan.html">Bagian Perencanaan</a></li>
+                <li><a href="/user/bag_sumda.html">Bagian Sumda</a></li>
+                <li><a href="/user/bag_operasi.html">Bagian Operasi</a></li>
+                <li><a href="/user/sat_intelkam.html">Sat Intelkam</a></li>
+                <li><a href="/user/sat_lantas.html">Sat Lantas</a></li>
+                <li><a href="/user/sat_narkoba.html">Sat Narkoba</a></li>
+                <li><a href="/user/sat_reskrim.html">Sat Reskrim</a></li>
+                <li><a href="/user/sat_sabhara.html">Sat Sabhara</a></li>
+                <li><a href="/user/sat_tahti.html">Sat Tahti</a></li>
+                <li><a href="/user/si_keuangan.html">Si Keuangan</a></li>
+                <li><a href="/user/si_pengawas.html">Si Pengawas</a></li>
+                <li><a href="/user/si_propam.html">Si Propam</a></li>
+                <li><a href="/user/sie_tik.html">SIE TIK</a></li>
+                <li><a href="/user/sie_umum.html">SIE Umum</a></li>
+                <li><a href="/user/urusan_kesehatan.html">Urusan Kesehatan</a></li>
+                <li><a href="/user/polsek.html">POLSEK</a></li>
           </ul>
         </div>
-
-        <!-- Kolom Informasi Publik -->
-        <div>
-          <h4 style="margin-bottom: 15px; border-bottom: 1px solid #444; padding-bottom: 5px">Informasi Publik</h4>
-          <ul style="list-style: none; padding: 0; line-height: 1.8">
-            <li><a href="https://polri.go.id/informasi-serta-merta" style="color: #fff; text-decoration: none">Informasi Serta Merta</a></li>
-            <li><a href="https://polri.go.id/informasi-setiap-saat" style="color: #fff; text-decoration: none">Informasi Setiap Saat</a></li>
-            <li><a href="https://polri.go.id/informasi-berkala" style="color: #fff; text-decoration: none">Informasi Berkala</a></li>
-            <li><a href="https://polri.go.id/uu-peraturan" style="color: #fff; text-decoration: none">UU dan Peraturan</a></li>
+        <div class="footer-section">
+          <h4 class="footer-title">Hubungi</h4>
+          <ul class="footer-list">
+            <li><a href="/user/110.html">Call Center 110</a></li>
           </ul>
         </div>
-
-        <!-- Kolom Internal Polri -->
-        <div>
-          <h4 style="margin-bottom: 15px; border-bottom: 1px solid #444; padding-bottom: 5px">Internal Polri</h4>
-          <ul style="list-style: none; padding: 0; line-height: 1.8">
-            <li><a href="https://polri.go.id/email-polri" style="color: #fff; text-decoration: none">Email Polri</a></li>
+        <div class="footer-section">
+          <h4 class="footer-title">Giat Polres Bangkalan</h4>
+          <ul class="footer-list">
+            <li><a class="dropdown-item" href="/user/giat_masyarakat.html">Giat Masyarakat</a></li>
+            <li><a class="dropdown-item" href="/user/giat_bhabinkamtibmas.html">Giat BAHBINKAMTIBMAS</a></li>
           </ul>
         </div>
       </div>
-
-      <!-- Footer Bawah -->
-      <div style="text-align: center; margin-top: 30px; font-size: 14px; border-top: 1px solid #444; padding-top: 10px">WEBSITE RESMI KEPOLISIAN REPUBLIK INDONESIA &copy; 2025</div>
+      <div class="footer-bottom">
+        WEBSITE KEPOLISIAN RESOR BANGKALAN &copy; <span id="year"></span>
+      </div>
     </footer>
+
     <!-- Portfolio Modals-->
     <!-- Portfolio item 1 modal popup-->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -606,5 +670,18 @@
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <!-- <script>
+    fetch("/user/layout/navbar.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("navbar-placeholder").innerHTML = data;
+      });
+
+    fetch("f/user/layout/footerr.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("footer-placeholder").innerHTML = data;
+      });
+  </script> -->
   </body>
 </html>
